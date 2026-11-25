@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!docker/
+!docker/opencode.json
+!docker/playwright.json
+!lib/
+!lib/opencode.js
+!lib/task-env.js
+!lib/task-worker.js

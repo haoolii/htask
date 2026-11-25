@@ -1,0 +1,19 @@
+{
+  "mcp": {
+    "servers": {
+      "playwright": {
+        "type": "local",
+        "codemode": false,
+        "command": [
+          "playwright-mcp",
+          "--browser", "chromium",
+          "--headless",
+          "--isolated",
+          "--config", "/opt/htask/playwright.json",
+          "--no-webmcp",
+          "--output-dir", "/workspace/artifacts"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+/.runs/
+.env
+.env.*
+!.env.example
+/opencode.jsonc
+node_modules/
